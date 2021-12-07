@@ -108,6 +108,10 @@
             this.Controls.Add(this.btnRun);
             this.Controls.Add(this.lblB);
             this.Controls.Add(this.lblA);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.HelpButton = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Асинхронный запуск";
             this.ResumeLayout(false);
