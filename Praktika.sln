@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie_3_2", "Zadanie_3_2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie_3_3", "Zadanie_3_3\Zadanie_3_3.csproj", "{6FA1EDEA-0F8F-416C-B467-F0ED7AA112F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie_4_1", "D:\praktika\Praktika\Zadanie_4_1\Zadanie_4_1.csproj", "{CDD6B700-D1FD-484C-B03C-1B58A6B7FAE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6FA1EDEA-0F8F-416C-B467-F0ED7AA112F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA1EDEA-0F8F-416C-B467-F0ED7AA112F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FA1EDEA-0F8F-416C-B467-F0ED7AA112F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD6B700-D1FD-484C-B03C-1B58A6B7FAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD6B700-D1FD-484C-B03C-1B58A6B7FAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD6B700-D1FD-484C-B03C-1B58A6B7FAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD6B700-D1FD-484C-B03C-1B58A6B7FAE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
