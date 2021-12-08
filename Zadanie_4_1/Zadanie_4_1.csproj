@@ -67,6 +67,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RBProductDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="RBProductDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RBProductDataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +106,17 @@
     </None>
     <None Include="RBProductDataSet.xss">
       <DependentUpon>RBProductDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RBProductDataSet1.xsc">
+      <DependentUpon>RBProductDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RBProductDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RBProductDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RBProductDataSet1.xss">
+      <DependentUpon>RBProductDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

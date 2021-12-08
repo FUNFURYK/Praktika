@@ -17,14 +17,28 @@ namespace Zadanie_4_1
             InitializeComponent();
         }
 
+        DataView ПоставщикиDataView;
         private void button1_Click(object sender, EventArgs e)
         {
-            oleDbDataAdapter1.Fill(rBProductDataSet.Поставщики);
+            // Загрузка таблицы данными;
+            поставщикиTableAdapter1.Fill(rBProductDataSet.Поставщики);
+            // Настройка объекта DataView
+            ПоставщикиDataView = new DataView(rBProductDataSet.Поставщики);
+            // Настройка dataGridView для отображения данных
+            dataGridView1.DataSource = ПоставщикиDataView;
+            // Присвоение исходного порядка сортировки
+            ПоставщикиDataView.Sort = "Поставщик"; 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             oleDbDataAdapter1.Update(rBProductDataSet);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ПоставщикиDataView.Sort = SortTextBox.Text;
+            ПоставщикиDataView.RowFilter = FilterTextBox.Text;
         }
     }
 }
