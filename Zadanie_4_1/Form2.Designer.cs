@@ -221,7 +221,7 @@
             this.FilterTextBox.Name = "FilterTextBox";
             this.FilterTextBox.Size = new System.Drawing.Size(100, 20);
             this.FilterTextBox.TabIndex = 6;
-            this.FilterTextBox.Text = "Город=\"Москва\"";
+            this.FilterTextBox.Text = "Номер телефона = \"123-45-67\"";
             // 
             // поставщикиTableAdapter1
             // 
