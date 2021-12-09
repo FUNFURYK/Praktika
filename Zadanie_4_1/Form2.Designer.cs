@@ -52,10 +52,12 @@
             this.поставщикиTableAdapter1 = new Zadanie_4_1.RBProductDataSetTableAdapters.ПоставщикиTableAdapter();
             this.rbProductDataSet1 = new Zadanie_4_1.RBProductDataSet();
             this.button3 = new System.Windows.Forms.Button();
+            this.rbProductDataSet2 = new Zadanie_4_1.RBProductDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rBProductDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rBProductDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rbProductDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rbProductDataSet2)).BeginInit();
             this.SuspendLayout();
             // 
             // oleDbSelectCommand1
@@ -243,6 +245,11 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // rbProductDataSet2
+            // 
+            this.rbProductDataSet2.DataSetName = "RBProductDataSet";
+            this.rbProductDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -262,6 +269,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.rBProductDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rBProductDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rbProductDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rbProductDataSet2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,5 +299,6 @@
         private RBProductDataSetTableAdapters.ПоставщикиTableAdapter поставщикиTableAdapter1;
         private RBProductDataSet rbProductDataSet1;
         private System.Windows.Forms.Button button3;
+        private RBProductDataSet rbProductDataSet2;
     }
 }
