@@ -46,19 +46,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(220, 13);
+            this.button1.Location = new System.Drawing.Point(166, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(200, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Click to Execute DataReader";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // listBox1
             // 
+            this.listBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(183, 75);
+            this.listBox1.Location = new System.Drawing.Point(0, 355);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.Size = new System.Drawing.Size(800, 95);
             this.listBox1.TabIndex = 1;
             // 
             // Form1
