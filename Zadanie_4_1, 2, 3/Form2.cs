@@ -16,15 +16,25 @@ namespace Zadanie_4_1__2__3
         {
             InitializeComponent();
         }
-
+        DataView ПоставщикиDataView;
         private void button1_Click(object sender, EventArgs e)
         {
-            oleDbDataAdapter1.Fill(rBProductDataSet.Поставщики);
+            поставщикиTableAdapter1.Fill(rbProductDataSet1.Поставщики);
+            ПоставщикиDataView = new
+                DataView(rbProductDataSet1.Поставщики);
+            dataGridView1.DataSource = ПоставщикиDataView;
+            ПоставщикиDataView.Sort = "Поставщик"; 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             oleDbDataAdapter1.Update(rBProductDataSet);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ПоставщикиDataView.Sort = SortTextBox.Text;
+            ПоставщикиDataView.RowFilter = FilterTextBox.Text;
         }
     }
 }
